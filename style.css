@@ -25,18 +25,23 @@ main {
   display: block;
   height: 100%;
   border: 3px solid blue;
-  width: 100%;
-  
+  width: 100%;    
 }
 
-nav {
-  margin-top: 0px;
+nav {    
   background-color: #800080;
   border: 3px solid red;
   height: 50px;
-  padding-top: 20px;
-  /* line-height: 50px; */
+  padding-top: 10px;    
   color: #ffffff;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+nav a {
+  display: inline;
+  color: #ffffff;
+  margin-right: 20px;
 }
 
 #rodape {
@@ -44,3 +49,5 @@ nav {
   color: #ffffff;
   line-height: 30px;
 }
+
+

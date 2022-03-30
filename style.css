@@ -24,14 +24,12 @@ main {
   position: relative;
   display: block;
   height: 100%;
-  border: 3px solid blue;
-  width: 100%;    
+  width: 100%;        
 }
 
 nav {    
-  background-color: #800080;
-  border: 3px solid red;
-  height: 50px;
+  background-color: #800080;    
+  height: 30px;
   padding-top: 10px;    
   color: #ffffff;
   padding-left: 10px;
@@ -50,6 +48,7 @@ nav a {
 }
 
 #rodape {
+  margin-top: 10px;
   background-color: #800080;
   color: #ffffff;
   line-height: 30px;

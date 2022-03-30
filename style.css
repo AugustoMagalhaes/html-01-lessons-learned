@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
-  
+  margin: 0px;
+  padding: 0px;
 }
 
 header {    
@@ -42,42 +43,98 @@ nav a {
   margin-right: 20px;
 }
 
+.autor {
+  width: 530px;
+  display: inline-block;
+  
+}
+
+.autor p {
+  
+  font-size: 20px;
+  margin-top: 0px;
+  text-align: center;
+}
+
 #minha_foto {
   padding: 10px;
   border-radius: 100%;
 }
 
+.tabela {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: -300px;
+  margin-left: 40px;    
+}
+
+.tabela tr {
+  background-color: #ffff00;
+}
+
+.tabela .conteudos .fundamentos {
+  background-color: #0f8a0f;
+}
+
+.tabela .conteudos .frontend, .backend, .cs {
+  background-color: #ff0000;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: #0f8a0f;
+}
+
 #aprendizados {
-  height: 120px;
+  height: 150px;
   border: 3px solid purple;
-  padding: 20px;         
+  padding: 10px;
+  display: block;
+  position: relative;               
 }
 
 #aprendizados::after {
   clear: both;
 }
 
-#aprendizados .lado-esquerdo {
+.lado-esquerdo {
   width: 50%;
-  right: 50%;
-  position: absolute;    
+  border: 3px solid red;
+  left: 5px;    
+  float: left;    
+  position: relative;    
+  padding: 5px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .lado-direito {
-  width: 40%;
-  position: relative;
-  border: 1px solid #8a8a99;
-  left: 60%;
-  height: auto;
-  vertical-align: top;
+  width: 30%;    
+  border: 3px solid #8a8a99;
+  right: 5px;
+  left: 10px;
+  float: right; 
+  position: relative;    
+  padding: 5px;
+  margin-right: 5px;    
+  font-size: 20px;
+  text-align: justify;
+  background-color: #0f8a0f;
+  color: #ffffff;
 }
 
 #rodape {
   margin-top: 10px;
   background-color: #800080;
+  display: block;
   color: #ffffff;
   line-height: 30px;
   position: relative;
+  font-size: 20px;
+  padding-left: 10px;
 }
-
-

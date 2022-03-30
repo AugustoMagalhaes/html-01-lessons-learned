@@ -15,7 +15,9 @@ Como o conteúdo geral das orientações e arquivos iniciais do projeto são de 
     - [8. Crie um artigo sobre seu aprendizado]
     - [9. Crie uma seção que conta uma passagem sobre seu aprendizado]
     - [10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles]
-  - [Bônus]
+    
+## Requisitos bônus:
+
     - [11. Teste a semântica da sua página está aprovada pelo site CodeSniffer]
     - [12. Adicione uma tabela à página]
     - [13. Utilize o Box model]

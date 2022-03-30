@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {    
+header {
   position: fixed;
   top: 0px;
   margin: 10px;
@@ -18,5 +18,11 @@ main {
 }
 
 nav {
+  margin-top: 70px;
+  background-color:#a802a8a9;
+  border: 3px solid red;
+}
 
+#rodape {
+  background-color: #a802a8a9;
 }

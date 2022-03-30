@@ -2,7 +2,21 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
+header {    
   position: fixed;
   top: 0px;
+  margin: 10px;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+}
+
+main {
+  margin: 15px;
+}
+
+nav {
+
 }

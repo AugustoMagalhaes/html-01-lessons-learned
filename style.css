@@ -9,7 +9,7 @@ header {
   margin-left: 0px;     
   background-color: #0f8a0f;
   width: 100%;
-
+  z-index: 1;
 }
 
 #titulo {
@@ -41,4 +41,6 @@ nav {
 
 #rodape {
   background-color: #800080;
+  color: #ffffff;
+  line-height: 30px;
 }

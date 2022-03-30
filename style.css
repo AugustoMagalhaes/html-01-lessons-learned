@@ -1,28 +1,42 @@
 body {
   background-color: rgb(253, 251, 251);
+  
 }
 
-header {
+header {    
   position: fixed;
   top: 0px;
-  margin: 10px;
+  margin-left: 0px;     
+  background-color: #00ff00;
   width: 100%;
+
 }
 
 #titulo {
   text-align: center;
+  color: #98989a;
 }
 
 main {
-  margin: 15px;
+  margin-top: 80px;
+  position: relative;
+  display: block;
+  height: 100%;
+  border: 3px solid blue;
+  width: 100%;
+  
 }
 
 nav {
-  margin-top: 70px;
-  background-color:#a802a8a9;
+  margin-top: 0px;
+  background-color: #800080;
   border: 3px solid red;
+  height: 50px;
+  padding-top: 20px;
+  /* line-height: 50px; */
+  color: #ffffff;
 }
 
 #rodape {
-  background-color: #a802a8a9;
+  background-color: #800080;
 }

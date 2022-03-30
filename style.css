@@ -44,6 +44,11 @@ nav a {
   margin-right: 20px;
 }
 
+#minha_foto {
+  padding: 10px;
+  border-radius: 100%;
+}
+
 #rodape {
   background-color: #800080;
   color: #ffffff;
